@@ -1,6 +1,6 @@
 # Puddle marketplace
 
-A marketplace project using Django.
+A marketplace project using Django. This is built step by step with [this](https://www.youtube.com/watch?v=ZxMB6Njs3ck) tutorial in order to build the intuition.
 
 ## Requirements
 
