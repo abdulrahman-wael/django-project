@@ -1,4 +1,3 @@
-
 what was built step-by-step?
 
 # Setting up & First app
@@ -49,3 +48,4 @@ what was built step-by-step?
       1. create a form.py inside the core and connect it to the views.py file
       2. create a signup.html page and connect it to the views.py
    2. modify signup.html to create a login.html and connect with urls.py and views.py
+5. now create the conversation app and connect like the previous ones.

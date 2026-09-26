@@ -55,7 +55,7 @@ def details(request, pk):
             conversation_message = form.save(commit=False)
             conversation_message.conversation = conversation
             conversation_message.created_by = request.user
-            conversation.save()
+            conversation_message.save()
 
             return redirect('conversation:details', pk=pk)
     else:

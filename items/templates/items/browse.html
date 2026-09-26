@@ -4,7 +4,7 @@
 
 {% block content %}
     <div class="pb-6 grid grid-cols-4 gap-4 bg-gray-100">
-        <div class="col-span-1">
+        <div class="col-span-1 pt-6 pl-6">
             <form action="{% url 'items:browse' %}" method="get">
                 <input type="text" name="query" class="2-full py-4 px-6 border rounded-xl" value="{{ query }}" placeholder="find a cake, icecream, etc.">
 
